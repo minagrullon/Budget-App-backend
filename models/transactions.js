@@ -29,7 +29,7 @@ module.exports = [
     date: "November 1, 2022",
     from: "Google",
     category: "Income",
-    id: 13,
+    id: 14,
   },
   {
     item_name: "Monthly Rent",
@@ -37,6 +37,6 @@ module.exports = [
     date: "November 5, 2022",
     from: "Landlord",
     category: "Rent",
-    id: 13,
+    id: 15,
   },
 ];
