@@ -6,6 +6,7 @@ const cors = require("cors");
 //middleware
 app.use(cors());
 app.use(express.json());
+app.use("/transactions", transactionsController);
 
 //routes
 app.get("/", (req, res) => {
