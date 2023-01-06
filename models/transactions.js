@@ -2,7 +2,7 @@ module.exports = [
   {
     item_name: "Dog food",
     amount: 100,
-    date: "December 12, 2022",
+    date: "2022-12-12",
     from: "Pet Store",
     category: "Pets",
     id: 11,
@@ -10,7 +10,7 @@ module.exports = [
   {
     item_name: "New Office Clothes",
     amount: 300,
-    date: "November 15, 2022",
+    date: "2022-11-15",
     from: "H&M",
     category: "Clothes",
     id: 12,
@@ -18,7 +18,7 @@ module.exports = [
   {
     item_name: "Check",
     amount: 8000,
-    date: "December 1, 2022",
+    date: "2022-12-01",
     from: "Google",
     category: "Income",
     id: 13,
@@ -26,7 +26,7 @@ module.exports = [
   {
     item_name: "Check",
     amount: 8000,
-    date: "November 1, 2022",
+    date: "2022-11-01",
     from: "Google",
     category: "Income",
     id: 14,
@@ -34,7 +34,7 @@ module.exports = [
   {
     item_name: "Monthly Rent",
     amount: 4000,
-    date: "November 5, 2022",
+    date: "2022-11-05",
     from: "Landlord",
     category: "Rent",
     id: 15,
