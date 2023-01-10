@@ -4,14 +4,15 @@ const transactionsArray = require("../models/transactions.js");
 
 //get all transactions
 transactions.get("/", (req, res) => {
-  res.json(transactionsArray.sort((a, b) => Date.parse(b) - Date.parse(a)));
+  res.json(transactionsArray);
 });
 
 //get single transaction
 transactions.get("/:index", (req, res) => {
   const { index } = req.params;
-  if (transactionsArray[index]) res.json(transactionsArray[index]);
-  else res.status(404).send("No such item exists").redirect("/*");
+  if (transactionsArray[index]) {
+    res.json(transactionsArray[index]);
+  } else res.status(404).send("No such item exists").redirect("/*");
 });
 //post
 transactions.post("/", (req, res) => {
