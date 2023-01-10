@@ -4,7 +4,7 @@ const transactionsArray = require("../models/transactions.js");
 
 //get all transactions
 transactions.get("/", (req, res) => {
-  res.json(transactionsArray);
+  res.json(transactionsArray.sort((a, b) => Date.parse(b) - Date.parse(a)));
 });
 
 //get single transaction

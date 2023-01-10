@@ -10,7 +10,7 @@ app.use("/transactions", transactionsController);
 
 //routes
 app.get("/", (req, res) => {
-  res.status(200).send("Hello World!");
+  res.status(200).send("Welcome to Budget Bank!");
 });
 
 //export
