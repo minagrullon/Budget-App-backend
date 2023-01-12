@@ -17,7 +17,7 @@ transactions.get("/:index", (req, res) => {
 //post
 transactions.post("/", (req, res) => {
   transactionsArray.push(req.body);
-  res.json(transactionsArray.at(-1));
+  res.status(200).json(transactionsArray);
 });
 
 //delete
