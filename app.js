@@ -4,8 +4,8 @@ const transactionsController = require("./controllers/transactionsController");
 const cors = require("cors");
 
 //middleware
-app.use(cors());
 app.use(express.json());
+app.use(cors());
 app.use("/transactions", transactionsController);
 
 //routes
